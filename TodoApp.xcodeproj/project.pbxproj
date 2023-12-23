@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		661B84F02B372777006CE53E /* AddNewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661B84EF2B372777006CE53E /* AddNewItemViewController.swift */; };
 		66C696392B1F15CA007E3A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C696382B1F15CA007E3A5A /* AppDelegate.swift */; };
 		66C6963B2B1F15CA007E3A5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6963A2B1F15CA007E3A5A /* SceneDelegate.swift */; };
 		66C6963D2B1F15CA007E3A5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6963C2B1F15CA007E3A5A /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		661B84EF2B372777006CE53E /* AddNewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemViewController.swift; sourceTree = "<group>"; };
 		66C696352B1F15CA007E3A5A /* TodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C696382B1F15CA007E3A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66C6963A2B1F15CA007E3A5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		66C696372B1F15CA007E3A5A /* TodoApp */ = {
 			isa = PBXGroup;
 			children = (
+				661B84EF2B372777006CE53E /* AddNewItemViewController.swift */,
 				66C696382B1F15CA007E3A5A /* AppDelegate.swift */,
 				66C6963A2B1F15CA007E3A5A /* SceneDelegate.swift */,
 				66C6963C2B1F15CA007E3A5A /* ViewController.swift */,
@@ -266,6 +269,7 @@
 			files = (
 				66C6966B2B1F1CA0007E3A5A /* TodoItem.swift in Sources */,
 				66C6963D2B1F15CA007E3A5A /* ViewController.swift in Sources */,
+				661B84F02B372777006CE53E /* AddNewItemViewController.swift in Sources */,
 				66C696392B1F15CA007E3A5A /* AppDelegate.swift in Sources */,
 				66C6963B2B1F15CA007E3A5A /* SceneDelegate.swift in Sources */,
 				66C696692B1F1BE1007E3A5A /* Todo.swift in Sources */,
