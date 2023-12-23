@@ -90,8 +90,39 @@
                     <view key="view" contentMode="scaleToFill" id="ZuZ-d4-kzm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Jlo-te-Eqz">
+                                <rect key="frame" x="20" y="86" width="335" height="73"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="3Dq-Zm-X8W">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qgu-tJ-uUQ">
+                                        <rect key="frame" x="0.0" y="42" width="335" height="31"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is done" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="04S-wO-lTl">
+                                                <rect key="frame" x="0.0" y="0.0" width="286" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Oyv-sj-2ah">
+                                                <rect key="frame" x="286" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="GNw-0k-U4N"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GNw-0k-U4N" firstAttribute="trailing" secondItem="Jlo-te-Eqz" secondAttribute="trailing" constant="20" id="Tpi-nr-qmC"/>
+                            <constraint firstItem="Jlo-te-Eqz" firstAttribute="top" secondItem="GNw-0k-U4N" secondAttribute="top" constant="30" id="aEm-0F-Spu"/>
+                            <constraint firstItem="Jlo-te-Eqz" firstAttribute="leading" secondItem="GNw-0k-U4N" secondAttribute="leading" constant="20" id="fhn-1G-BBB"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add New Item" id="yEi-Nv-mtI">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="zbR-r6-ngv"/>
